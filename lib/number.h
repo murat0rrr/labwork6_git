@@ -4,7 +4,7 @@
 
 
 struct uint2022_t {
-    // implement
+    unsigned int a[68] = {};
 };
 
 static_assert(sizeof(uint2022_t) <= 300, "Size of uint2022_t must be no higher than 300 bytes");
